@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--text-->
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="@dimen/margin"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/name"
+        android:textSize="@dimen/margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--this is logo-->
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:layout_margin="@dimen/margin"
+        android:layout_width="@dimen/icon2"
+        android:layout_height="@dimen/icon2" />
+
+    <!--pink view กด control / เพื่อ comment-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/icon"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/colorAccent" />
+
+    <!--blue view-->
+    <view
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:background="@color/colorPrimary" />
+
+    <!--this is text view-->
+
+
+
+</LinearLayout>
