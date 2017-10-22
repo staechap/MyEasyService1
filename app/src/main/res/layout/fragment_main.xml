@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <!--text-->
     <TextView
@@ -12,7 +13,7 @@
         android:textAlignment="center"
         android:layout_gravity="center"
         android:text="@string/name"
-        android:textSize="28sp"
+        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -21,8 +22,8 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/logo"
         android:layout_margin="@dimen/margin"
-        android:layout_width="@dimen/icon2"
-        android:layout_height="@dimen/icon2" />
+        android:layout_width="179dp"
+        android:layout_height="169dp" />
 
     <!--pink view กด control / เพื่อ comment-->
     <View
@@ -38,7 +39,16 @@
         android:layout_height="@dimen/icon"
         android:background="@color/colorPrimary" />
 
-    <!--this is text view-->
+    <!--this is Button GoToSecond-->
+    <Button
+        android:id="@+id/btnGoToSecond"
+        android:layout_width="@dimen/icon2"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Go to Second"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"/>
+
 
 
 
