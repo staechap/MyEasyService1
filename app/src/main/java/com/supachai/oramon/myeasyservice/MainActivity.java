@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         createToolBar();
 
 
-    } // main method
+    } // main  method
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
