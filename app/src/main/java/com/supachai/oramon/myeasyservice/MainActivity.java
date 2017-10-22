@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Add Fragment to Activity
-        addfragment(savedInstanceState);
+        addFragment(savedInstanceState);
 
         //Setup Drawer
         setupDrawer();
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout = (DrawerLayout) findViewById(R.id.myDrawerLayout);
     }
 
-    private void addfragment(Bundle savedInstanceState) {
+    private void addFragment(Bundle savedInstanceState) {
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.contentFragmentMain, new MainFragment()).commit();
