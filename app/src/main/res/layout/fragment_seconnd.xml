@@ -5,20 +5,30 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
-
+    <!--Title-->
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin"
         android:text="@string/name"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="@dimen/h1"
-        android:textStyle="bold"/>
-
-    <!--Title-->
+        android:textStyle="bold"
+        android:textSize="24sp"/>
 
     <!--Image-->
+    <ImageView
+        android:layout_width="@dimen/icon2"
+        android:layout_height="@dimen/icon2"
+        android:src="@drawable/man"/>
+
 
     <!--Back Bottom-->
+    <Button
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_width="@dimen/icon2"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
 
 </LinearLayout>

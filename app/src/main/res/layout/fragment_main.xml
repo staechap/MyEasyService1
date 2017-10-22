@@ -10,8 +10,9 @@
         android:layout_margin="@dimen/margin"
         android:textStyle="bold"
         android:textAlignment="center"
+        android:layout_gravity="center"
         android:text="@string/name"
-        android:textSize="@dimen/margin"
+        android:textSize="28sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
