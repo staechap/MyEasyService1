@@ -18,9 +18,11 @@
 
     <!--Image-->
     <ImageView
-        android:layout_width="@dimen/icon2"
-        android:layout_height="@dimen/icon2"
-        android:src="@drawable/man"/>
+
+        android:id="@+id/invIronman"
+        android:layout_width="173dp"
+        android:layout_height="179dp"
+        android:src="@drawable/man" />
 
 
     <!--Back Bottom-->
